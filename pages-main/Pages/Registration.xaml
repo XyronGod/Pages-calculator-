@@ -1,0 +1,28 @@
+﻿<Page x:Class="WpfApp4.Pages.Registration"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp4.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Registration">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="13*"/>
+            <RowDefinition Height="437*"/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="textbox2" HorizontalAlignment="Left" Height="23" Margin="346,338,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Row="1" TextChanged="textbox2_TextChanged"/>
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="23" Margin="346,268,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Row="1" TextChanged="textbox1_TextChanged"/>
+        <Button Content="Зарегистрироваться" HorizontalAlignment="Left" Margin="289,366,0,0" VerticalAlignment="Top" Width="247" Click="Button_Click" Grid.Row="1" FontSize="20"/>
+        <Label Content="Логин" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="346,226,334,0" Grid.Row="1" HorizontalContentAlignment="Center" FontSize="20" Width="120"/>
+        <Label Content="Пароль" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="346,296,334,0" Grid.Row="1" HorizontalContentAlignment="Center" FontSize="20" Width="120"/>
+        <Label Content="Фамилия" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="346,156,334,0" Grid.Row="1" HorizontalContentAlignment="Center" FontSize="20" Width="120"/>
+        <Label Content="имя" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="346,86,334,0" Width="120" Grid.Row="1" HorizontalContentAlignment="Center" FontSize="20"/>
+        <Label Content="Регистрация" VerticalAlignment="Top" Margin="10,0" FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="40" Grid.RowSpan="2"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="346,128,0,0" Grid.Row="1"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="346,198,0,0" Grid.Row="1"/>
+
+    </Grid>
+</Page>
